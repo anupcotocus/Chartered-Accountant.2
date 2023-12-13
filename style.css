@@ -1,0 +1,50 @@
+
+/* Custom Styles for Navigation Bar */
+.navbar {
+ background-color: #3498db; /* Set your desired background color */
+ color: #fff; /* Set your desired text color */
+}
+
+.navbar-toggler-icon {
+ background-color: #fff; /* Set your desired color for the hamburger icon */
+}
+
+.navbar-nav .nav-link {
+ color: #fff !important; /* Set your desired text color for the links */
+}
+
+.navbar-nav .nav-link:hover {
+ color: #ecf0f1 !important; /* Set your desired text color for the links on hover */
+}
+
+.navbar-nav .nav-item.dropdown:hover .nav-link {
+ color: #ecf0f1 !important; /* Set your desired text color for the dropdown link on hover */
+}
+
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+ background-color: #2980b9; /* Set your desired background color for the dropdown menu on hover */
+}
+
+.dropdown-menu .dropdown-item {
+ color: #fff !important; /* Set your desired text color for the dropdown items */
+}
+
+.dropdown-menu .dropdown-item:hover {
+ background-color: #3498db; /* Set your desired background color for the dropdown items on hover */
+ color: #fff !important; /* Set your desired text color for the dropdown items on hover */
+}
+
+.navbar-form .form-control {
+ border: 1px solid #fff; /* Set your desired border color for the search input */
+ color: #fff; /* Set your desired text color for the search input */
+}
+
+.navbar-form .btn-outline-success {
+ border-color: #fff; /* Set your desired border color for the search button */
+ color: #fff; /* Set your desired text color for the search button */
+}
+
+.navbar-form .btn-outline-success:hover {
+ background-color: #2980b9; /* Set your desired background color for the search button on hover */
+ border-color: #2980b9; /* Set your desired border color for the search button on hover */
+}
